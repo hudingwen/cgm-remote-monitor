@@ -471,7 +471,7 @@
     "Info": "信息",
     "Lowest": "血糖极低",
     "Snoozing high alarm since there is enough IOB": "有足够的IOB（活性胰岛素），暂停高血糖警报",
-    "Check BG, time to bolus?": "测量血糖，血糖过高",
+    "Check BG, time to bolus?": "测量血糖，血糖异常",
     "Notice": "提示",
     "required info missing": "所需信息不全",
     "Insulin on Board": "活性胰岛素（IOB）",
