@@ -767,7 +767,7 @@
             var newWorker = reg.installing;
             newWorker.addEventListener('statechange', (state) => {
               console.log('New worker state change', state);
-              window.location.reload(true);
+              // window.location.reload(true);
             });
           });
         }).catch(function(error) {
