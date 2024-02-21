@@ -224,15 +224,25 @@ h1, legend,
   display: flex;
   height: 44px;
   margin: 0 0 10px;
-  padding: 0 15px 0 40px;
+  /* padding: 0 15px 0 40px; */
+  padding: 0 15px 0 5px;
   position: relative;
   align-items: center;
-  background: url("../images/logo2.png") no-repeat 3px center #333;
+  /* background: url("../images/logo2.png") no-repeat 3px center #333; */
+  background: no-repeat 3px center #333;
   border-bottom: 1px solid #999;
   justify-content: space-between;
 }
 
 #toolbar .customTitle {
+  color: #ccc;
+  font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#toolbar .customTitle2 {
+  height: 44px;
   color: #ccc;
   font-size: 16px;
   white-space: nowrap;

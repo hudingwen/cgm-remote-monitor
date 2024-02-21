@@ -7,7 +7,7 @@
   <link rel="apple-touch-startup-image" href="images/launch.png">
   <meta name="apple-mobile-web-app-title" content="Nightscout">
 
-  <title>小羊Ns远程服务</title>
+  <title><%= process.env.name %></title>
 
   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-60x60.png">
@@ -307,7 +307,7 @@
         <div>version <span class="version"></span></div>
         <div> <span class="head"></span></div>
         <p>
-          <div>Copyright © 2023 <a href="#" target="_blank">小羊Ns远程服务</a></div>
+          <div>Copyright © 2023 <a href="#" target="_blank"><%= process.env.name %></a></div>
           <div>Thanks Nightscout</div>
         </p>
       </fieldset>
