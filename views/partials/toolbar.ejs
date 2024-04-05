@@ -4,7 +4,7 @@
       <img style="height: 37px;width: 37px;margin-top: 5px;" src="<%= process.env.logo?process.env.logo:'/images/logo2.png' %>" />
       <label style="padding-left: 4px;top: 12px;position: fixed;"><%= process.env.name %></label>
     </h1>
-    <h1 style="top: 34px;font-size: 16px;position: absolute;" id="myExpire"></h1>
+    <h1 style="top: 34px;font-size: 16px;position: absolute;color: red;" id="myExpire"></h1>
     <%if (type !== 'index') { %>
         <a href="/" class="closeButton button-close"><span>X</span></a>
     <% } %>
